@@ -1,0 +1,172 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.welcome-message {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0069d9;
+}
+
+
+.connected-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.connected-header {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.connected-account {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.connected-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.connected-button:hover {
+  background-color: #0069d9;
+}
+
+.connected-contract-address {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+.candidates-table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align:center;
+}
+
+.candidates-table th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.candidates-table th {
+  background-color: #f2f2f2;
+}
+
+input[type=number] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.connected-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.connected-header {
+  font-size: 2em;
+  color: #4CAF50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connected-header .fa-check-circle {
+  margin-left: 10px;
+  color: #4CAF50;
+}
+
+.connected-account {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.candidates-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.candidates-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  align-items: center;
+}
+
+.candidates-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.login-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button .fa-vote-yea {
+  margin-left: 10px;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+
+
+/* Center align images in the table cells */
+.candidates-table td {
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.candidate-image {
+  display: inline-block;
+  max-width: 50px;
+  max-height: 50px;
+}
