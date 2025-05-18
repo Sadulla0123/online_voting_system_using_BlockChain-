@@ -39,7 +39,7 @@ pipeline {
 
         stage('Build Frontend') {
             steps {
-                dir('client') {
+                dir('src') {
                     bat 'npm run build'
                 }
             }
